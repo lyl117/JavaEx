@@ -6,13 +6,32 @@ public class Types {
 	public static void main(String[]args) {
 //		varEx();
 //        integerEx();
-		floatDoubleEx();
+		// floatDoubleEx();
+		// booleanEx();
+		charEx();
+	}
+	
+	// 문자형 데이터 타입
+	private static void charEx( ) {
+		//부호가 없는 정수 코드
+		char ch1 ='A';
+		char ch2 = '한';
+		
+		System.out.println(ch1);
+		System.out.println(ch2);
+		
+		System.out.println(ch1+ch2);
+		
+		String str ="A한";
+	    System.out.println(str);
+		
+		
 	}
 	// 논리형 데이터 타입
 	private static void booleanEx() {
 		//1byte: type or false
 		// 조건 분기, 반복문 등에 활용 -> 중요
-		boolean b1 = true;
+	    boolean b1 = true;
 		boolean b2 = false;
 		
 		System.out.println(b1);
