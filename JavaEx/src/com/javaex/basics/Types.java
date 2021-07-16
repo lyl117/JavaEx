@@ -5,7 +5,26 @@ package com.javaex.basics;
 public class Types {
 	public static void main(String[]args) {
 		varEx();
-    }
+        integerEx();
+	}
+	
+	// 정수형 데이터 타입
+	private static void integerEx() {
+		//byte(1) < short(2) < int(4) < long(8)
+		int intvar1, intvar2; // 선언
+		
+		intvar1 = 2021; //초기화
+	//	intvar2= 1234567890123; // out of range:저장 범위 초과
+	   System.out.println(Integer.toBinaryString(intvar1));
+	   
+	   long longvar1, longvar2;
+	   
+	   longvar1 = 2021;
+	   longvar2 = 1234567890123L; //L or l
+	   
+	   System.out.println(longvar1);
+	   System.out.println(longvar2);
+	}
 	
 	//변수의 선언과 사용
 	private static void varEx() {
