@@ -24,6 +24,17 @@ public class Types {
 	   
 	   System.out.println(longvar1);
 	   System.out.println(longvar2);
+	     
+	   //  2진수,8진수,16진수
+	   int bin,oct,hex;
+	   
+	   bin =0b1101; // 2진수 0b
+	   oct = 072;    // 8진수 0
+	   hex = 0xFF;   // 16진수 0x
+	   
+	   System.out.println(bin);
+	   System.out.println(oct);
+	   System.out.println(hex);
 	}
 	
 	//변수의 선언과 사용
