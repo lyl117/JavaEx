@@ -8,7 +8,23 @@ public class Types {
 //        integerEx();
 		floatDoubleEx();
 	}
-	
+	// 논리형 데이터 타입
+	private static void booleanEx() {
+		//1byte: type or false
+		// 조건 분기, 반복문 등에 활용 -> 중요
+		boolean b1 = true;
+		boolean b2 = false;
+		
+		System.out.println(b1);
+		System.out.println(b2);
+		
+		// 비교 연산 or 논리 연산의 결과로 활용
+		int a = 7, b = 3;
+		boolean result = a > b;
+		
+		System.out.println(result);
+		
+	}
 	//실수형 데이터 타입
 	private static void floatDoubleEx( ) {
 		// float(4) < double(8)
