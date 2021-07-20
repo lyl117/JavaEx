@@ -71,6 +71,7 @@ public class CoditionalEx {
   		}
 		else if (score >= 60) {
 			grade = "D등급.";
+		}
 		else  {
 			grade = "F등급.";
 			
