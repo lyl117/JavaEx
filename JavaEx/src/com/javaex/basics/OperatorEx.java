@@ -60,7 +60,7 @@ public class OperatorEx {
 		   System.out.println("b1:" + Integer.toBinaryString(b1));
 		   System.out.println("b2:"+ Integer.toBinaryString(b2));
 		   
-		   int result = b1 &b2; // 비트 논리곱
+		   int result = b1 & b2; // 비트 논리곱
 		   System.out.println("b1 & b2 : " + Integer.toBinaryString(result));
 		   
 		   result =b1 | b2; // 비트 논리합
