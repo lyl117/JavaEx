@@ -10,7 +10,7 @@ public class EnumEx {
 		Week today = Week.WEDNESDAY;
 		
 		System.out.printf(
-				"오늘은 %s (%d) 입니다."
+				"오늘은 %s (%d) 입니다.",
 			today.name(), // 열거 상수 -> 문자열 
 		    today.ordinal ()) ; // 열거 상수 내순번 
 		
