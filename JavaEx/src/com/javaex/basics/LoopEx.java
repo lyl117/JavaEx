@@ -11,9 +11,71 @@ public class LoopEx {
 //		forGugu();
 //		continueEx();
 //		forGugu2();
-		forPractice(); 
+//		forPractice(); 
+//		whileGugPractice();
+//		forGuguPractice();
+//		whileStarPractice();
+//		forStarPractice();
+		breakEx();
+		
 		System.out.println("End of Code");
 
+	}
+	
+	private static void breakEx() {
+	     int num = 1;
+	     
+	     while(true) { // 무한 루프 
+	    	 if (num % 6  == 0 && num %14 == 0)
+	    		 break; //루프 탈 출
+	    	num ++;
+	     }
+	     System.out.println(num);
+	}
+	private static void forStarPractice() {
+		// 행루프 
+		for(int row = 1; row <= 6; row++) {
+			for (int col = 1; col <= row; col ++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+	private static void whileStarPractice() {
+		int row =1;
+		// 행 루프 
+		while(row <= 6) {
+		int col =1;
+		while (col <= row ) {
+			System.out.println("*");
+			col++;
+		}
+		System.out.println(); // 함 행 끝난 후 개행 
+	    row++;
+		}
+	}
+	private static void forGuguPractice() {	
+		// 단루프 
+		for(int dan = 2; dan <= 9; dan++) {
+			// 숫자 루프 
+		for(int num = 1; num <= 9; num ++) {
+			System.out.println(dan +"*"+ num+"="+(dan *num));
+		}
+		}
+	}
+	private static void whileGugPractice() {
+		 int dan = 2;
+		// 단루프
+	while(dan <= 9) {
+		int num = 1;
+		// 숫자 루프 
+	while (num <= 9) {
+	    System.out.println(dan + "*"+num+"="+ (dan*num));
+	    num ++;
+	}
+		
+		dan ++; 
+	}
 	}
 	private static void forPractice () {
 		for(int i=1; i<=6; i++) {
