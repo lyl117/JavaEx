@@ -18,5 +18,12 @@ public class EnumEx {
 		
 		System.out.printf("%s , %d",
 				obj.name(), obj.ordinal());
+		
+		System.out.printf("%s 와 %s의 순번차 : %d%n",
+				today.name(), obj.name(), today.compareTo(obj));
+		
+		Week[] days = Week.values();
+		
+		System.out.println(Arrays.toString(days));
 	}
 }
